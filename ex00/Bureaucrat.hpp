@@ -19,15 +19,22 @@
 class Bureaucrat
 {
 	public:
+	//OCF stuff
 	Bureaucrat();
 	Bureaucrat(Bureaucrat &bureaucrat);
 	Bureaucrat(std::string name, int grade);
 	~Bureaucrat();
 	Bureaucrat &operator=(Bureaucrat &bureaucrat);
+
+	//Accessors
 	int getGrade() const;
 	std::string getName() const;
+
+	//Functions
 	void incrementGrade(int inc);
 	void decrementGrade(int dec);
+
+	//Exceptions
 class GradeTooHighException : public std::exception
 	{
 	public:

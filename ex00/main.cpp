@@ -6,6 +6,7 @@ int main()
 		Bureaucrat a;
 		Bureaucrat b("Mike", 5);
 		b.incrementGrade(4);
+//		b.decrementGrade(1);
 		std::cout << b;
 	}
 	catch (std::exception &e)

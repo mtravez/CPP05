@@ -27,10 +27,13 @@ int main()
 	Intern randomIntern;
 	AForm *rrf;
 	AForm *ppf;
+	AForm *scf;
 
 	rrf = randomIntern.makeForm("robotomy request", "Bender");
 	ppf = randomIntern.makeForm("presidential pardon", "Mike");
+	scf = randomIntern.makeForm("shrubbery creation", "Dave");
 	delete rrf;
 	delete ppf;
+	delete scf;
 	return 0;
 }
