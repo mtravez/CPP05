@@ -30,8 +30,8 @@ class Form
 
 	bool getIsSigned(void) const;
 	const std::string getName(void) const;
-	const int getSignGrade() const;
-	const int getExecGrade() const;
+	int getSignGrade() const;
+	int getExecGrade() const;
 	void beSigned(Bureaucrat &bureaucrat);
 
 class GradeTooHighException : public std::exception

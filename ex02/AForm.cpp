@@ -35,7 +35,7 @@ const std::string AForm::getName() const
 	return this->name;
 }
 
-const int AForm::getExecGrade() const
+int AForm::getExecGrade() const
 {
 	return this->execGrade;
 }
@@ -45,7 +45,7 @@ bool AForm::getIsSigned() const
 	return this->isSigned;
 }
 
-const int AForm::getSignGrade() const
+int AForm::getSignGrade() const
 {
 	return this->signGrade;
 }

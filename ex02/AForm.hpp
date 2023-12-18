@@ -31,8 +31,8 @@ class AForm
 
 	bool getIsSigned(void) const;
 	const std::string getName(void) const;
-	const int getSignGrade() const;
-	const int getExecGrade() const;
+	int getSignGrade() const;
+	int getExecGrade() const;
 	void beSigned(Bureaucrat &bureaucrat);
 	bool canExecute(Bureaucrat const &bureaucrat) const;
 	virtual void execute(Bureaucrat const & executor) const = 0;

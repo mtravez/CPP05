@@ -47,7 +47,7 @@ const std::string Form::getName() const
 	return this->name;
 }
 
-const int Form::getExecGrade() const
+int Form::getExecGrade() const
 {
 	return this->execGrade;
 }
@@ -57,7 +57,7 @@ bool Form::getIsSigned() const
 	return this->isSigned;
 }
 
-const int Form::getSignGrade() const
+int Form::getSignGrade() const
 {
 	return this->signGrade;
 }
